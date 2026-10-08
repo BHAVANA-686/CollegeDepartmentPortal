@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Science Department</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f7fb;
+            color: #222;
+        }
+
+        header {
+            background: #173b6c;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 17px;
+        }
+
+        nav {
+            background: #0f2948;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 18px;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 30px auto;
+        }
+
+        .welcome {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .welcome h2 {
+            color: #173b6c;
+            margin-bottom: 12px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 22px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            color: #173b6c;
+            margin-bottom: 12px;
+        }
+
+        .card ul {
+            padding-left: 20px;
+            line-height: 1.8;
+        }
+
+        .contact {
+            margin-top: 25px;
+            background: #173b6c;
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            background: #0f2948;
+            color: white;
+            padding: 18px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Department of Computer Science and Engineering</h1>
+    <p>College Department Information Portal</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#faculty">Faculty</a>
+    <a href="#programs">Programs</a>
+    <a href="#labs">Laboratories</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+    <section class="welcome" id="about">
+        <h2>Welcome to the Department</h2>
+        <p>
+            The Department of Computer Science and Engineering provides
+            quality education in computing, software engineering,
+            artificial intelligence, and emerging technologies.
+        </p>
+    </section>
+
+    <div class="cards">
+
+        <div class="card" id="faculty">
+            <h3>Faculty</h3>
+            <ul>
+                <li>Dr. Arun Kumar - Professor</li>
+                <li>Dr. Priya Sharma - Associate Professor</li>
+                <li>Dr. Ravi Kumar - Assistant Professor</li>
+                <li>Ms. Anitha Raj - Assistant Professor</li>
+            </ul>
+        </div>
+
+        <div class="card" id="programs">
+            <h3>Programs</h3>
+            <ul>
+                <li>B.Tech Computer Science</li>
+                <li>M.Tech Software Engineering</li>
+                <li>B.Sc Computer Science</li>
+                <li>Ph.D Computer Science</li>
+            </ul>
+        </div>
+
+        <div class="card" id="labs">
+            <h3>Laboratories</h3>
+            <ul>
+                <li>Programming Laboratory</li>
+                <li>Data Structures Laboratory</li>
+                <li>Artificial Intelligence Lab</li>
+                <li>Cloud Computing Lab</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <section class="contact" id="contact">
+        <h2>Contact Information</h2>
+        <br>
+        <p><strong>Department:</strong> Computer Science and Engineering</p>
+        <p><strong>Email:</strong> cse@college.edu</p>
+        <p><strong>Phone:</strong> +91 98765 43210</p>
+        <p><strong>Location:</strong> Main Academic Block, College Campus</p>
+    </section>
+
+</div>
+
+<footer>
+    <p>© 2026 Department of Computer Science and Engineering</p>
+    <p>Powered by Kubernetes CI/CD</p>
+</footer>
+
+</body>
+</html>
